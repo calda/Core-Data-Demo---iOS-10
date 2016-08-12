@@ -13,6 +13,8 @@
 		8B41C9571D5E153000D4BA80 /* Core_Data_10.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B41C9551D5E153000D4BA80 /* Core_Data_10.xcdatamodeld */; };
 		8B41C9591D5E153000D4BA80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B41C9581D5E153000D4BA80 /* Assets.xcassets */; };
 		8B41C95C1D5E153000D4BA80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B41C95A1D5E153000D4BA80 /* LaunchScreen.storyboard */; };
+		8B41C9641D5E190600D4BA80 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41C9631D5E190600D4BA80 /* Pokemon.swift */; };
+		8B96C4841D5E52120039A755 /* CapturedPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B96C4831D5E52120039A755 /* CapturedPokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8B41C9581D5E153000D4BA80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B41C95B1D5E153000D4BA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B41C95D1D5E153000D4BA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B41C9631D5E190600D4BA80 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		8B96C4831D5E52120039A755 /* CapturedPokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapturedPokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				8B41C94E1D5E153000D4BA80 /* AppDelegate.swift */,
 				8B41C9501D5E153000D4BA80 /* ViewController.swift */,
+				8B41C9631D5E190600D4BA80 /* Pokemon.swift */,
+				8B96C4831D5E52120039A755 /* CapturedPokemon.swift */,
 				8B41C9521D5E153000D4BA80 /* Main.storyboard */,
 				8B41C9581D5E153000D4BA80 /* Assets.xcassets */,
 				8B41C95A1D5E153000D4BA80 /* LaunchScreen.storyboard */,
@@ -142,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B41C9571D5E153000D4BA80 /* Core_Data_10.xcdatamodeld in Sources */,
+				8B41C9641D5E190600D4BA80 /* Pokemon.swift in Sources */,
+				8B96C4841D5E52120039A755 /* CapturedPokemon.swift in Sources */,
 				8B41C9511D5E153000D4BA80 /* ViewController.swift in Sources */,
 				8B41C94F1D5E153000D4BA80 /* AppDelegate.swift in Sources */,
 			);
@@ -301,6 +309,7 @@
 				8B41C9621D5E153000D4BA80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
