@@ -35,10 +35,10 @@ var CDContainer: NSPersistentContainer {
 ###Creating a new object
 ```swift
 func catchPokemon(name: String?, ofKind kind: Pokemon) {
-  let captured = CapturedPokemon(context: CDContainer.viewContext)
-  captured.name = name
-  captured.kind = kind.rawValue
-  try? CDContainer.viewContext.save()
+    let captured = CapturedPokemon(context: CDContainer.viewContext)
+    captured.name = name
+    captured.kind = kind.rawValue
+    try? CDContainer.viewContext.save()
 }
 ```
 
